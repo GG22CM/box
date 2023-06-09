@@ -1,0 +1,57 @@
+#box {
+    position: absolute;
+    top: 50%;
+    left: 100px;
+    width: 250px;
+    height: 170px;
+    z-index: 999;
+    user-select: none;
+}
+
+#canvas1 {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+#box>img {
+    display: block;
+    width: 250px;
+    height: 170px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+@keyframes bounce {
+    0% {
+        width: 250px;
+        height: 170px;
+    }
+
+    25% {
+        width: 400px;
+        height: 130px;
+    }
+
+    50% {
+        width: 150px;
+        height: 230px;
+    }
+
+    75% {
+        width: 350px;
+        height: 140px;
+    }
+
+    100% {
+        width: 250px;
+        height: 170px;
+    }
+}
+
